@@ -1,0 +1,29 @@
+/* Write a program that reads from the standard input two numbers and displays on the standard output their addition, subtraction, multiplication and division */.
+
+#include <iostream>
+
+using namespace std;
+
+int main (){
+	int n1,n2, addition = 0, subtraction = 0, multiplication = 0, division = 0;
+	
+	cout<<"Digit a number "; cin>>n1;
+	cout<<"\nPlease digit another number"; cin>>n2;
+	
+	
+	addition = n1 + n2;
+	subtraction = n1 - n2;
+	multiplication = n1 * n2;
+	division = n1 / n2;
+	
+	cout<<"\nThe Result of the addition is: "<<addition<<endl;
+	cout<<"The Result of the subtraction is: "<<subtraction<<endl;
+	cout<<"The Result of the multiplication is: "<<multiplication<<endl;
+	cout<<"The Result of the division is: "<<division<<endl;
+	
+
+	
+	return 0;
+}
+
+/* Paste the stuff up in Dev-C++ and then Compile and Run. Easy af*/.
